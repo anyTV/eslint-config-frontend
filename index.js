@@ -76,7 +76,6 @@ module.exports = {
         // allow single-word components
         'vue/multi-word-component-names': 0,
         'vue/custom-event-name-casing': 'off',
-        'vue/no-mutating-props': 'off',
 
         indent: [
             'error',
