@@ -156,7 +156,7 @@ module.exports = {
         // so it has to be disabled
         '@typescript-eslint/no-var-requires': 'off',
 
-        '@typescript-eslint/no-explicit-any': 'off',
+        '@typescript-eslint/no-explicit-any': 'warn',
 
 
         // quotes handling
