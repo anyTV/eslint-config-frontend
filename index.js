@@ -141,9 +141,6 @@ module.exports = {
 
         'space-infix-ops': 'error',
         'no-case-declarations': 0,
-        /* eslint-disable-next-line max-len */
-        // https://typescript-eslint.io/linting/troubleshooting/#i-get-errors-from-the-no-undef-rule-about-global-variables-not-being-defined-even-though-there-are-no-typescript-errors
-        'no-undef': 'off',
         'brace-style': [ 'error', 'stroustrup', { allowSingleLine: true } ],
 
         // allow re-throwing of error in try catch
