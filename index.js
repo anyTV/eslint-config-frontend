@@ -76,7 +76,6 @@ module.exports = {
         // allow single-word components
         'vue/multi-word-component-names': 0,
         'vue/custom-event-name-casing': 'off',
-        'vue/no-mutating-props': 'off',
 
         indent: [
             'error',
@@ -142,9 +141,6 @@ module.exports = {
 
         'space-infix-ops': 'error',
         'no-case-declarations': 0,
-        /* eslint-disable-next-line max-len */
-        // https://typescript-eslint.io/linting/troubleshooting/#i-get-errors-from-the-no-undef-rule-about-global-variables-not-being-defined-even-though-there-are-no-typescript-errors
-        'no-undef': 'off',
         'brace-style': [ 'error', 'stroustrup', { allowSingleLine: true } ],
 
         // allow re-throwing of error in try catch
@@ -160,7 +156,7 @@ module.exports = {
         // so it has to be disabled
         '@typescript-eslint/no-var-requires': 'off',
 
-        '@typescript-eslint/no-explicit-any': 'off',
+        '@typescript-eslint/no-explicit-any': 'warn',
 
 
         // quotes handling
