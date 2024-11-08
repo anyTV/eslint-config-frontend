@@ -52,6 +52,8 @@ module.exports = {
 
     // add your custom rules here
     rules: {
+        // resetting no-undef since it is set to off by 'plugin:@typescript-eslint/recommended'
+        'no-undef': [ 'error' ],
         'vue/html-indent': [
             'error',
             4,
