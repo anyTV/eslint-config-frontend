@@ -11,7 +11,7 @@
     "peerDependencies": {
         "eslint": ">= 3"
     },
-    "devDependencies": {
+    "peerDependencies": {
         "@eslint/compat": "^1.2.4",
         "@eslint/eslintrc": "^3.2.0",
         "@eslint/js": "^9.16.0",
