@@ -1,8 +1,8 @@
 {
     "name": "eslint-config-frontend",
-    "version": "1.1.0",
+    "version": "2.0.0",
     "description": "",
-    "main": "index.js",
+    "main": "index.mjs",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -10,5 +10,11 @@
     "license": "ISC",
     "peerDependencies": {
         "eslint": ">= 3"
+    },
+    "devDependencies": {
+        "@eslint/compat": "^1.2.4",
+        "@eslint/eslintrc": "^3.2.0",
+        "@eslint/js": "^9.16.0",
+        "globals": "^15.13.0"
     }
 }
