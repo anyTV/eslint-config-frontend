@@ -47,7 +47,6 @@ module.exports = {
         chrome: 'readonly',
         YT: 'readonly',
         $trans: 'readonly',
-        $t: 'readonly',
     },
 
     // add your custom rules here
@@ -160,6 +159,7 @@ module.exports = {
 
         '@typescript-eslint/no-explicit-any': 'warn',
 
+        '@typescript-eslint/no-unused-vars': process.env.NODE_ENV === 'production' ? 'error' : 'warn',
 
         // quotes handling
         quotes: [
