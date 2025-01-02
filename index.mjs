@@ -45,9 +45,7 @@ export default [...compat.extends(
       process: "readonly",
       Capacitor: "readonly",
       chrome: "readonly",
-      YT: "readonly",
-      $trans: "readonly",
-      $t: "readonly",
+      YT: "readonly"
     },
 
     parser: parser,
