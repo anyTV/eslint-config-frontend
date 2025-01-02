@@ -47,6 +47,7 @@ module.exports = {
         chrome: 'readonly',
         YT: 'readonly',
         $trans: 'readonly',
+        $t: 'readonly',
     },
 
     // add your custom rules here
