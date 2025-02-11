@@ -156,5 +156,10 @@ export default [...compat.extends(
         requireLast: false,
       },
     }],
+    "space-before-function-paren": ["error", {
+        "anonymous": "always",
+        "named": "never",
+        "asyncArrow": "always"
+    }],
   },
 }];
