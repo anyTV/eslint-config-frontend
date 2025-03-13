@@ -137,7 +137,10 @@ module.exports = {
         'import/no-extraneous-dependencies': 'off',
 
         // allow console and debugger during development
-        'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'warn',
+        'no-console': [
+            process.env.NODE_ENV === 'production' ? 'error' : 'warn', // for console.log
+            { allow: ['error', 'warn'] } // Allow console.error and console.warn
+        ],
         'no-alert': process.env.NODE_ENV === 'production' ? 'error' : 'warn',
         'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'warn',
 
