@@ -1,6 +1,6 @@
 import vue from "eslint-plugin-vue";
 import _import from "eslint-plugin-import";
-import tseslint from "typescript-eslint"; // <--- Use the new unified package
+import tseslint from "typescript-eslint";
 import { fixupPluginRules } from "@eslint/compat";
 import globals from "globals";
 import parser from "vue-eslint-parser";
