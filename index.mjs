@@ -10,7 +10,7 @@ import stylistic from '@stylistic/eslint-plugin';
 export default tseslint.config(
     js.configs.recommended,
     ...tseslint.configs.recommended,
-    ...vue.configs["flat/recommended"], // Use the native flat config if available
+    ...vue.configs["flat/recommended"],
     {
         plugins: {
             vue,

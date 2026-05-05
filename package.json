@@ -10,12 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@eslint/compat": "^1.2.4",
-    "@eslint/eslintrc": "^3.2.0",
-    "@eslint/js": "^9.16.0",
-    "@stylistic/eslint-plugin": "^2.12.1",
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin": "^5.10.0",
     "eslint": "^10.3.0",
-    "globals": "^15.13.0",
+    "globals": "^17.6.0",
     "typescript-eslint": "^8.59.2"
   }
 }
