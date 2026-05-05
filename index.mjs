@@ -22,7 +22,6 @@ export default tseslint.config(
             globals: {
                 ...globals.browser,
                 ...globals.node,
-                ...vue.environments["setup-compiler-macros"]["setup-compiler-macros"],
                 ga: "readonly",
                 cordova: "readonly",
                 __statics: "readonly",
@@ -33,7 +32,11 @@ export default tseslint.config(
                 process: "readonly",
                 Capacitor: "readonly",
                 chrome: "readonly",
-                YT: "readonly"
+                YT: "readonly",
+                defineProps: 'readonly',
+                defineEmits: 'readonly',
+                defineExpose: 'readonly',
+                withDefaults: 'readonly'
             },
 
             parser: parser,
